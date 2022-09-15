@@ -87,3 +87,19 @@ flex-direction: row;
 justify-content: space-between;
 }
 }
+.formulario{
+    background-color: rgb(245, 212, 247);
+    width: min(60rem, 100%);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+.formulario fieldset{
+    border: none
+}
+.formulario legend{
+    text-align:center;
+    font-size: 1.8rem;
+font-weight: 700;
+margin-bottom: 2rem;
+}
