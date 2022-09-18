@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+
+body{
+    background-image: url(/CSS/Imagenes/mapa.jpg);
+    background-size: cover;
+}
+
+header{
+    margin: auto;
+    width: 100%;
+    text-align:center;
+}
+
+.nav-bg{
+    background-color: rgb(208, 164, 245);
+
+}
+
+.navegacion-principal {
+    text-align: center;
+    font-family: 'Combo', cursive;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor {
+    max-width: 120rem;
+    margin:0 auto;
+}
+
+.navegacion-principal a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+.navegacion-principal a:hover{
+   background-color: violet;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Combo', cursive;
+    font-size: 40px;   
+    margin: 10px;
+   
+}
+
+
+.img-cafeto{
+    text-align: center;
+}
+.cafeto{
+    width: 60%;
+    height: auto;
+}
+
+h2{
+    font-family: 'Combo', cursive;
+    font-size: 25px;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+p{
+    font-family: 'Combo', cursive;
+    font-size: 15px;
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+section.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgb(58, 19, 19);
+    float: left;
+    width: 300px;
+}
+
+section.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+section.galeria:hover{
+    border: 1px solid rgb(105, 33, 33);
+    transform: rotate(-3deg);
+}
+
+section.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(63, 6, 6);
+    padding: 10px;
+    background-color: rgb(238, 232, 232);
+}
