@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather:ital@1&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather:ital@1&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     line-height: 1; /*SOLUCION al espacio blanco arriba del footer*/
 }
 
-h1 {
+h3 {
     text-align: center;
-    font-family: 'Combo', cursive;
+    font-family: Merriweather;
+    font-size: 40px;
     color: #fff;
-    margin-bottom: 10px;
 }
 
 
@@ -23,36 +24,39 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-
 .navegacion-principal {
     text-align: center;
-        font-family: 'Combo', cursive;
-    }
-    .contenedor {
-      max-width: 120rem;
-        margin:0 auto;
-    
-    }
-    .nav-bg{
-        background-color: #3f2519;
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 0%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin:0 auto;
+}
+
+.nav-bg{
+    background-color: #3f2519;
+}
+
+.navegacion-principal a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+         
+.navegacion-principal {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
         
-        }
-        .navegacion-principal a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-          }
-          .navegacion-principal {
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-           
-        }
-        
-        .navegacion-principal a:hover{
-        background-color: #9c7461;
-        color: #2e1c13;
-        }
+.navegacion-principal a:hover{
+    background-color: #9c7461;
+    color: #2e1c13;
+}
 
 
 
