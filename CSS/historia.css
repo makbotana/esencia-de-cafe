@@ -29,11 +29,14 @@ h3 {
 
 .titulo {
     text-align: center;
+    font-size: 40px;
     font-family: Merriweather;
-    color: #3f2519;
     font-size: 55px;
     font-weight: 600;
+    letter-spacing: 1px;
+    color:#2e1c13;
     margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .navegacion-principal {
@@ -45,31 +48,29 @@ h3 {
 }
 
 .contenedor {
-      max-width: 120rem;
-        margin:0 auto;
-    
+    max-width: 120rem;
+    margin:0 auto;
 }
 
 .nav-bg{
-        background-color: #3f2519;
-        
+    background-color: #3f2519;
 }
 
 .navegacion-principal a {
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
          
 .navegacion-principal {
-        padding: 1rem;
-        display: flex;
-        justify-content: space-between;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
         
 .navegacion-principal a:hover{
-        background-color: #9c7461;
-        color: #2e1c13;
+    background-color: #9c7461;
+    color: #2e1c13;
 }
 
 body{

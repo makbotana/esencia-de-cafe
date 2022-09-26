@@ -1,58 +1,87 @@
-h1 {
-    text-align: center;
-    font-family: 'Combo', cursive;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather:ital@1&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather:ital@1&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+h3 {
+    text-align: right;
+    color: #fff;
+    font-family: Merriweather, bold;
+    background-image: url(/Imagenes/granos4.jpg);
+    background-size: 100%;
+    height: 250px;
+    margin-bottom: 0%;
+}
+
+.nombre{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 40px;
+    padding-top: 7%;
+    padding-right: 100px;
+    letter-spacing: 3px;
+    margin-top: 0%;
+}
 
 .navegacion-principal {
     text-align: center;
-        font-family: 'Combo', cursive;
-    }
-    .contenedor {
-      max-width: 120rem;
-        margin:0 auto;
-    
-    }
-    .nav-bg{
-        background-color: #3f2519;
-        
-        }
-        .navegacion-principal a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-          }
-          .navegacion-principal {
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-           
-        }
-        
-        .navegacion-principal a:hover{
-        background-color: #9c7461;
-        color: #2e1c13;
-        }
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin:0 auto;
+}
+
+.nav-bg{
+    background-color: #3f2519;
+
+}
+
+.navegacion-principal a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navegacion-principal {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a:hover{
+    background-color: #9c7461;
+    color: #2e1c13;
+}
 
 body{
     width: 100%;
     height: 100%;
-    font-family: sans-serif;
     letter-spacing: 0.03;
     line-height: 1.6;
-    background-color: #dca998;   
+    background-color: #ecb09cea;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
-.title{
+
+.titulo{
     text-align: center;
     font-size: 40px;
-    text-decoration: underline;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    color: rgba(56, 5, 5, 0.925);
-    margin-top: 50px;
-    font-weight: 100;
+    font-family: Merriweather;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#2e1c13;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .container{
@@ -88,6 +117,7 @@ body{
 }
 
 .card h4{
+    font-family: Merriwather;
     font-weight: 600;
     font-style: italic;
     font-size: 18px;
@@ -99,70 +129,164 @@ body{
 
 .card p{
     padding: 0 1rem;
+    font-family: Open Sans;
     font-size: 15px;
-    font-weight: 300;
  /*separo el p del enlace a*/   
     margin-bottom: 20px;
 }
 
 .card a{
+    font-family: Merriweather;
     font-weight: 500;
     font-size: 15px;
 /*separo las letrsa de los bordes*/   
     padding: 5px 5px; 
     text-decoration: none;
     border-style:solid;
-    color: rgba(56, 5, 5, 0.925);
+    color: #3f2519;
 }
 
  /*cambio el color del boton*/   
 .card a:hover{
-    background-color:rgba(56, 5, 5, 0.925);
+    background-color:#3f2519;
     color: #fff;
 }
 
 .bebida-warm{
     text-align: center;
-    font-family: Tahoma, sans-serif;
+    font-family: Merriweather;
+    letter-spacing: 2px;
     font-size: 25px;
-    border: solid rgba(56, 5, 5, 0.925);
-    color:#dca998;
-    background-color: rgba(56, 5, 5, 0.925);
+    border: solid #3f2519;
+    color: #fff;
+    background-color: #3f2519;
 }
 
 .bebida-warm_{
     margin-bottom: 10px;
-    font-family: Tahoma, sans-serif;
-    font-size: 20px;
+    font-family: Merriweather, bold;
+    letter-spacing: 1px;
+    font-size: 25px;
     text-decoration: underline;
-    color: rgba(56, 5, 5, 0.925);
+    color: #3f2519;
 }
 
 .bebida-warm_ p{
-    font-family: Tahoma, sans-serif;
+    font-family: Open Sans;
     font-size: 15px;
+    margin: 10px 20px;
     text-align: justify;
 }
 
 .bebida-cold{
     text-align: center;
-    font-family: Tahoma, sans-serif;
+    font-family: Merriweather;
+    letter-spacing: 2px;
     font-size: 25px;
-    border: solid rgba(56, 5, 5, 0.925);
-    color:#dca998;
-    background-color: rgba(56, 5, 5, 0.925);
+    border: solid #3f2519;
+    color: #fff;
+    background-color: #3f2519;
 }
 
 .bebida-cold_{
     margin-bottom: 10px;
-    font-family: Tahoma, sans-serif;
-    font-size: 20px;
+    font-family: Merriweather, bold;
+    letter-spacing: 1px;
+    font-size: 25px;
     text-decoration: underline;
-    color: rgba(56, 5, 5, 0.925);
+    color: #3f2519;
 }
 
 .bebida-cold_ p{
-    font-family: Tahoma, sans-serif;
-    font-size: 15px;
+    font-family: Open Sans;
+    font-size: 20px;
+    margin: 10px 20px;
     text-align: justify;
+}
+
+.pie-pagina{
+    box-sizing: border-box;
+    font-family: Meriweather;
+    background-color: #2e1c13;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    align-self: flex-end;
+    line-height: 1;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
+}
+
+.pie-pagina .grupo-1 .box .pie1{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: Merriweather, cursive;
+    text-decoration: none;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box .pie2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: Merriweather, cursive;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+    font-family: Open Sans;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #29160c;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(138, 138, 138)
+}
+
+.pie-pagina .grupo-2{
+    background-color: #29160c;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+    font-family: Open Sans;
 }
