@@ -56,23 +56,19 @@ h1 {
     height: 100%
 }
 
-.seccion{
-    display: grid;
-    grid-template-columns: repeat 50% 50%;
-    text-align: center;
-}
-.seccion{
-    margin: 0;
-    padding: 0;
-    font-family: Open Sans;
-    font-size: 20px;
-}
-
 .cafe{
     font-family: Merriweather, bold;
 
 }
+
 .seccion{
+    display: grid;
+    grid-template-columns: repeat 50% 50%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    font-size: 20px;
     display:flex;
     flex-direction:row;
     align-items: center;
@@ -114,6 +110,7 @@ justify-content: space-between;
     list-style: none;
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
     }
@@ -123,6 +120,7 @@ justify-content: space-between;
     .galeria img{
         width: 300px;
         height: 200px;
+        border:#2e1c13 double 6px
     }
 
     .galeria{
