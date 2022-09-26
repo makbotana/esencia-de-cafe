@@ -1,11 +1,12 @@
+*{
+    box-sizing: border-box;
+}
 
 h1 {
     text-align: center;
     font-family: 'Combo', cursive;
 }
-*{
-    box-sizing: border-box;
-}
+
 .navegacion-principal {
 text-align: center;
     font-family: 'Combo', cursive;
@@ -16,11 +17,11 @@ text-align: center;
 
 }
 .nav-bg{
-background-color: rgb(208, 164, 245);
+        background-color: #3f2519;
 
 }
 .navegacion-principal a {
-    color: rgb(0, 0, 0);
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
   }
@@ -32,10 +33,11 @@ background-color: rgb(208, 164, 245);
 }
 
 .navegacion-principal a:hover{
-background-color: violet;
+background-color: #9c7461;
+color: #2e1c13;
 }
 .cafe {
-    background-image: url(../CSS/Imagenes/inicio.jpg);
+   background-image: url(../CSS/Imagenes/inicio.jpg);
    background-repeat: no-repeat;
    background-size: cover;
   height: 600px;
@@ -59,7 +61,7 @@ background-color: violet;
     font-size: 20px;
 }
 .body{
-    background-color: rgb(247, 247, 224);
+    background-color: #1cc5b7;
 }
 .cafe{
     font-family: 'Noto-sans';
@@ -73,7 +75,7 @@ background-color: violet;
 .seccion .icono {
     height: 10rem;
     width: 10rem;
-    background-color: rgb(178, 119, 233);
+    background-color: #9c7461;
     border-radius: 50%;
     display: flex; 
     justify-content: space-evenly;

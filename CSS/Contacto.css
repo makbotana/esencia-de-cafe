@@ -1,13 +1,26 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1; /*SOLUCION al espacio blanco arriba del footer*/
+}
 
 h1 {
     text-align: center;
     font-family: 'Combo', cursive;
-}
-*{
-    box-sizing: border-box;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
+
+body{
+    background-image: url(../Imagenes/granos6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display:block;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 .navegacion-principal {
     text-align: center;
@@ -19,31 +32,32 @@ h1 {
     
     }
     .nav-bg{
-    background-color: rgb(208, 164, 245);
-    
-    }
-    .navegacion-principal a {
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        font-weight: bold;
-      }
-      .navegacion-principal {
-        padding: 1rem;
-        display: flex;
-        justify-content: space-between;
-       
-    }
-    
-    .navegacion-principal a:hover{
-    background-color: violet;
-    }
+        background-color: #3f2519;
+        
+        }
+        .navegacion-principal a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+          }
+          .navegacion-principal {
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        
+        .navegacion-principal a:hover{
+        background-color: #9c7461;
+        color: #2e1c13;
+        }
 
 
 
 form{
     width: 800px;
     margin: auto;
-    background-color: rgb(208, 162, 250);
+    background-color: #2e1c13;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 50px;
@@ -51,7 +65,7 @@ form{
     font-family: 'Combo', cursive;
 }
 h2{
-    color: black;
+    color: #fff; 
     text-align: center;
     
 }
@@ -72,8 +86,84 @@ textarea{
 }
 #boton{
     padding: 20px;
-    background-color: blueviolet; 
+    background-color:#9c7461; 
 }
 #boton:hover {
     cursor: pointer
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open Sans;
+}
+
+.pie-pagina{
+    background-color: #2e1c13;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #29160c;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: #9c7461
+}
+
+.pie-pagina .grupo-2{
+    background-color: #29160c;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
 }

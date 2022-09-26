@@ -17,24 +17,25 @@ h1 {
     
     }
     .nav-bg{
-    background-color: rgb(208, 164, 245);
-    
-    }
-    .navegacion-principal a {
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        font-weight: bold;
-      }
-      .navegacion-principal {
-        padding: 1rem;
-        display: flex;
-        justify-content: space-between;
-       
-    }
-    
-    .navegacion-principal a:hover{
-    background-color: violet;
-    }
+        background-color: #3f2519;
+        
+        }
+        .navegacion-principal a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+          }
+          .navegacion-principal {
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        
+        .navegacion-principal a:hover{
+        background-color: #9c7461;
+        color: #2e1c13;
+        }
 
 
 body{
@@ -48,6 +49,7 @@ body{
 h1{
     text-align: center;
     font-family: 'Combo', cursive;
+    color: #3f2519;
     font-size: 40px;   
     margin: 10px;
    
@@ -111,7 +113,7 @@ section.pie{
 }
 
 .pie-pagina{
-    background-color: rgba(56, 5, 5, 0.925);
+    background-color: #2e1c13;
     bottom: 0;
     width: 100%;
     margin-top: auto;
@@ -159,7 +161,7 @@ section.pie{
     line-height: 50px;
     color: #fff;
     margin-right: 10px;
-    background-color: rgba(48, 3, 3, 0.925);
+    background-color: #29160c;
     text-align: center;
     transition: all 300ms ease;
 }
@@ -169,7 +171,7 @@ section.pie{
 }
 
 .pie-pagina .grupo-2{
-    background-color: rgba(48, 3, 3, 0.925);
+    background-color: #29160c;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
