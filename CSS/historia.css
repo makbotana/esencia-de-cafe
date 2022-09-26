@@ -30,9 +30,10 @@ h3 {
 .titulo {
     text-align: center;
     font-family: Merriweather;
+    color: #3f2519;
     font-size: 55px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .navegacion-principal {
@@ -47,28 +48,29 @@ h3 {
       max-width: 120rem;
         margin:0 auto;
     
-    }
-    .nav-bg{
+}
+
+.nav-bg{
         background-color: #3f2519;
         
-        }
-        .navegacion-principal a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-          }
-          .navegacion-principal {
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-           
-        }
+}
+
+.navegacion-principal a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+}
+         
+.navegacion-principal {
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+}
         
-        .navegacion-principal a:hover{
+.navegacion-principal a:hover{
         background-color: #9c7461;
         color: #2e1c13;
-        }
-
+}
 
 body{
     background-image: url(/Imagenes/papel1.jpg);
@@ -77,16 +79,6 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-
-h1{
-    text-align: center;
-    font-family: 'Combo', cursive;
-    color: #3f2519;
-    font-size: 40px;   
-    margin: 10px;
-   
-}
-
 
 .img-cafeto{
     text-align: center;
@@ -97,15 +89,18 @@ h1{
 }
 
 h2{
-    font-family: 'Combo', cursive;
-    font-size: 25px;
-    margin: 10px;
+    font-family: Merriweather, cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 15px;
     padding: 5px;
     text-decoration: underline;
+    color: #29160c;
 }
 
 p{
-    font-family: 'Combo', cursive;
+    font-family: Open Sans;
+    font-weight: 600;
     font-size: 15px;
     margin: 10px 20px;
     text-align: justify;
@@ -193,6 +188,7 @@ section.pie{
     color: #efefef;
     margin-bottom: 10px;
     font-family: Open Sans;
+    text-align: center;
 }
 
 .pie-pagina .grupo-1 .red-social a{
