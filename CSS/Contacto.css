@@ -8,50 +8,60 @@
     line-height: 1; /*SOLUCION al espacio blanco arriba del footer*/
 }
 
-
-h3 {
-    text-align: right;
-    color: #fff;
-    font-family: Merriweather, bold;
-    background-image: url(/Imagenes/granos4.jpg);
-    background-size: 100%;
-    height: 250px;
-    padding: 10%;
-    margin-bottom: 0%;
+header{
+    background-image: url(/imagenes/granos4.jpg);
+    background-size: cover;
+    height: 250px ;
 }
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: right;
+    align-items: right;    
+    width: 100%;
+}
+
+.logo img{
+    width: 50px;
+    padding-top: 7.5%;
+    margin-right: 475px;
+}
+
 .nombre{
+    position: absolute;
+    color: #fff;
+    text-align: center;
     font-weight: 300;
     font-style: italic;
-    font-size: 50px;
+    font-size: 60px;
     padding-top: 7%;
-    padding-right: 100px;
-    letter-spacing: 3px;
+    padding-right: 40px;
+    letter-spacing: 2px;
     margin-top: 0%;
 }
 
-body{
-    background-image: url(../Imagenes/granos6.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
-    display:block;
-    flex-direction: column;
-    min-height: 100vh;
+.nav-bg{
+    background-color: #3f2519;
+
 }
 .navegacion-principal {
     text-align: center;
     font-family: Merriweather;
     font-style: italic;
     font-size: 22px;
-    margin-top: 0%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contenedor {
     max-width: 120rem;
     margin:0 auto;
-}
 
-.nav-bg{
-    background-color: #3f2519;
 }
 
 .navegacion-principal a {
@@ -59,19 +69,34 @@ body{
     text-decoration: none;
     font-weight: bold;
 }
-         
-.navegacion-principal {
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-        
+
 .navegacion-principal a:hover{
     background-color: #9c7461;
     color: #2e1c13;
 }
 
+body{
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03;
+    line-height: 1.6;
+    background-color: #ecb09cea;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    font-family: Merriweather;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#2e1c13;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
 
 form{
     width: 800px;
@@ -83,11 +108,13 @@ form{
     border-radius: 7px;
     font-family: 'Combo', cursive;
 }
+
 h2{
     color: #fff; 
     text-align: center;
     
 }
+
 input, textarea{
     width: 100%;
     margin-bottom: 20px;
@@ -98,91 +125,92 @@ input, textarea{
     font-family: 'Combo', cursive;
     
 }
+
 textarea{
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
 }
+
 #boton{
     padding: 20px;
     background-color:#9c7461; 
 }
+
 #boton:hover {
     cursor: pointer
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: open Sans;
+footer{
+    background-color: #2e1c13;
+    height: auto;
+    width: 100%;
+    padding-top: 25px;
+    color: #fff;
+}
+
+.logo-pie{
+    width: 60px;
 }
 
 .pie-pagina{
-    background-color: #2e1c13;
-    bottom: 0;
-    width: 100%;
-    
-}
-
-.pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-gap: 50px;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 45px 0px;
-}
-
-.pie-pagina .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-.pie-pagina .grupo-1 .box figure img{
-    width: 150px;
-}
-
-.pie-pagina .grupo-1 .box h2{
-    color: #fff;
-    margin-bottom: 25px;
+.grupo1 h4{
     font-size: 20px;
+    font-weight: 400;
+    font-family: Merriweather;
+    text-transform: capitalize;
+    line-height: 3rem;
 }
 
-.pie-pagina .grupo-1 .box p{
-    color: #efefef;
-    margin-bottom: 10px;
+.grupo1 p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: Open Sans;
 }
 
-.pie-pagina .grupo-1 .red-social a{
-    display: inline-block;
+.redes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes li{
+    margin: 0 15px;
+}
+
+.redes a{
     text-decoration: none;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
     color: #fff;
-    margin-right: 10px;
-    background-color: #29160c;
+}
+
+.redes a i{
+    font-size: 20px;
+    transition: color 4s ease;
+}
+
+.redes a:hover{
+    color: #9c7461;
+}
+
+.grupo2{
+    padding: 10px 10px;
     text-align: center;
-    transition: all 300ms ease;
 }
 
-.pie-pagina .grupo-1 .red-social a:hover{
-    color: #9c7461
-}
-
-.pie-pagina .grupo-2{
-    background-color: #29160c;
+.grupo2 p{
+    font-size: 16px;
+    font-family: Open Sans;
+    word-spacing: 2px;
+    text-align: center;
     padding: 15px 10px;
-    text-align: center;
-    color: #fff;
-}
-
-.pie-pagina .grupo-2 small{
-    font-size: 15px;
 }
