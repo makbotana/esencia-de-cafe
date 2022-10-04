@@ -73,6 +73,7 @@ a{
 .navegacion-principal a:hover{
     background-color: #9c7461;
     color: #2e1c13;
+    padding: 1rem;
 }
 
 

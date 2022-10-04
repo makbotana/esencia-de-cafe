@@ -74,6 +74,7 @@ a{
 .navegacion-principal a:hover{
     background-color: #9c7461;
     color: #2e1c13;
+    padding: 1rem;
 }
 
 
@@ -155,8 +156,8 @@ justify-content: space-between;
 }
 
 .galeria img{
-        width: 300px;
-        height: 200px;
+        width: 400px;
+        height: 300px;
         border:#2e1c13 double 6px
 }
 

@@ -73,6 +73,7 @@ a{
 .navegacion-principal a:hover{
     background-color: #9c7461;
     color: #2e1c13;
+    padding: 1rem;
 }
 
 body{
@@ -102,10 +103,10 @@ form{
     width: 800px;
     margin: auto;
     background-color: #2e1c13;
-    padding: 10px 20px;
+    padding: 20px 40px;
     box-sizing: border-box;
     margin-top: 50px;
-    border-radius: 7px;
+    border-radius: 10px;
     font-family: 'Combo', cursive;
 }
 
@@ -117,7 +118,7 @@ h2{
 
 input, textarea{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 7px;
     box-sizing: border-box;
     font-size: 17px;

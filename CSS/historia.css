@@ -88,6 +88,7 @@ a{
 .navegacion-principal a:hover{
     background-color: #9c7461;
     color: #2e1c13;
+    padding: 1rem;
 }
 
 body{
@@ -118,10 +119,11 @@ h2{
 
 p{
     font-family: Open Sans;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 17px;
     margin: 10px 20px;
     text-align: justify;
+    
 }
 
 section.galeria{
@@ -146,6 +148,15 @@ section.pie{
     text-shadow: 2px 2px 5px rgb(63, 6, 6);
     padding: 10px;
     background-color: rgb(238, 232, 232);
+}
+h3{
+    font-family: Merriweather, cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 15px;
+    padding: 5px;
+    text-decoration: underline;
+    color: #29160c;
 }
 
 /*FOOTER*/
@@ -222,3 +233,4 @@ footer{
     text-align: center;
     padding: 15px 10px;
 }
+
