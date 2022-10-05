@@ -138,7 +138,7 @@ body{
 .cinturon{
     height: 80vh;
     margin: 15px;
-    margin-left: 78px;
+    padding-left: 115px;
     display: flex;
     justify-content: center;
 }
