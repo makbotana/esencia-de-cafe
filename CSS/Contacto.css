@@ -178,6 +178,10 @@ footer{
     font-family: Open Sans;
 }
 
+.frase{
+    padding-bottom: 10px;
+}
+
 .redes{
     list-style: none;
     display: flex;
