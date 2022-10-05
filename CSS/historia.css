@@ -143,6 +143,20 @@ body{
     justify-content: center;
 }
 
+.granoscafe{
+    width: 320px;
+    margin: 15px;
+    float: left;
+    margin-right: 15px;
+}
+
+.granoscafe1{
+    width: 420px;
+    margin: 15px;
+    float: right;
+    margin-left: 15px;
+}
+
 h2{
     font-family: Merriweather, cursive;
     text-align: center;
@@ -161,7 +175,13 @@ p{
     padding: 5px;
     text-align: justify;
     color: #fff;
-    
+}
+
+.subhisto{
+    font-family: Merriweather, cursive;
+    font-size: 20px;
+    color: #9c7461;
+    margin-left: 15px;
 }
 
 section.galeria{

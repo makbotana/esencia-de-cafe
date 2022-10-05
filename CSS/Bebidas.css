@@ -25,8 +25,8 @@ a{
 
 .logo img{
     width: 50px;
-    padding-top: 7.5%;
-    margin-right: 475px;
+    padding-top: 8.5%;
+    margin-right: 470px;
 }
 
 .nombre{
@@ -84,8 +84,15 @@ body{
     line-height: 1.6;
     background-color: #ecb09cea;
     display: flex;
+    position: relative;
     flex-direction: column;
     min-height: 100vh;
+    border: solid 3px red;
+}
+
+main{
+    width: 90vw;
+    border: solid 3px blue;
 }
 
 .titulo{
@@ -224,7 +231,8 @@ footer{
     background-color: #2e1c13;
     height: auto;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 10px;
+    bottom: 0%;
     color: #fff;
 }
 
