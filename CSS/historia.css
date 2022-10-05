@@ -111,6 +111,36 @@ body{
     background-color: #3f2519;
     margin: 0px 10px;
     padding: 5px;
+    border-radius: 5px;
+}
+
+.fruto{
+    width: 250px;
+    margin: 10px;
+    float: left;
+    margin-right: 15px;
+}
+
+.montaña{
+    width: 470px;
+    margin: 15px;
+    float: right;
+    margin-left: 15px;
+}
+
+.dibujo{
+    width: 460px;
+    margin: 15px;
+    float: left;
+    margin-right: 15px;
+}
+
+.cinturon{
+    height: 80vh;
+    margin: 15px;
+    margin-left: 78px;
+    display: flex;
+    justify-content: center;
 }
 
 h2{
@@ -127,7 +157,7 @@ p{
     font-family: Open Sans;
     font-size: 16px;
     line-height: 1.5;
-    margin: 10px 20px;
+    margin: 10px 10px;
     padding: 5px;
     text-align: justify;
     color: #fff;
