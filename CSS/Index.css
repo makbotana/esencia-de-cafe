@@ -136,11 +136,7 @@ a{
     
 }
 
-@media (min-width: 780px) {
-.navegacion-principal {
-flex-direction: row;
-justify-content: space-between;
-}
+
 .galeria{ 
     flex-wrap: wrap;
 
@@ -154,7 +150,7 @@ justify-content: space-between;
     background-size: cover;
     height: 600px;
     position:relative
-}}
+}
 
 .galeria{
     width: 90%;
@@ -268,3 +264,8 @@ footer{
 }
 
 /*responsive web*/
+@media (min-width: 780px) {
+.navegacion-principal {
+flex-direction: row;
+justify-content: space-between;
+}}

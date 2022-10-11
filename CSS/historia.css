@@ -82,8 +82,10 @@ a{
 .navegacion-principal {
     padding: 1rem;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
+
 
 .navegacion-principal a:hover{
     background-color: #9c7461;
@@ -112,7 +114,9 @@ body{
     margin: 0px 10px;
     padding: 5px;
     border-radius: 5px;
-}
+   
+    }
+   
 
 .fruto{
     width: 250px;
@@ -296,3 +300,11 @@ footer{
     padding: 15px 10px;
 }
 
+/* responsive*/
+
+@media (min-width: 780px) {
+.navegacion-principal {
+flex-direction: row;
+justify-content: space-between;
+}
+}
