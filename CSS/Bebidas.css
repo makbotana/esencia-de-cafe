@@ -76,7 +76,6 @@ a{
     padding: 1rem;
 }
 
-
 body{
     width: 100%;
     height: 100%;
@@ -87,144 +86,82 @@ body{
     position: relative;
     flex-direction: column;
     min-height: 100vh;
-    border: solid 3px red;
 }
 
 main{
-    width: 90vw;
-    border: solid 3px blue;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin: 50px;
+    align-items: center;
 }
 
-.titulo{
+.contenedor-galeria{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-galeria figure{
+    position: relative;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+}
+
+.contenedor-galeria figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor-galeria figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50.2, 25.1, 0, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
     text-align: center;
-    font-size: 40px;
-    font-family: Merriweather;
-    font-size: 55px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color:#2e1c13;
-    margin-top: 30px;
+}
+
+.contenedor-galeria figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor-galeria figure:hover > .capa h3{
+    margin-top: 40px;
     margin-bottom: 15px;
 }
 
-.container{
+.contenedor-galeria figure:hover > img{
+    transform: scale(1.2);
+}
+
+.contenedor-galeria figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    font-family: Merriweather;
+    margin-bottom: 10px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.contenedor-galeria figure .capa p{
+    color: #fff;
+    font-size: 13px;
+    font-family: Open Sans;
+    line-height: 1.5;
     width: 100%;
-    max-width: 1200px;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    max-width: 250px;
     margin: auto;
-}
-
-.card{
-    width: 330px;
-    height: 430px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: o 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-}
-
-.card:hover{
-    transform:translateY(-15);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.4);
-}
-
-.card img{
-    width: 330px;
-    height: 220px;
-}
-
-.card h4{
-    font-family: Merriwather;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 18px;
- /*separo el titulo de la img*/ 
-    margin-top: 10px;
- /*separo el titulo del p*/ 
-    margin-bottom: 10px;
-}
-
-.card p{
-    padding: 0 1rem;
-    font-family: Open Sans;
-    font-size: 15px;
- /*separo el p del enlace a*/   
-    margin-bottom: 20px;
-}
-
-.card a{
-    font-family: Merriweather;
-    font-weight: 500;
-    font-size: 15px;
-/*separo las letrsa de los bordes*/   
-    padding: 5px 5px; 
-    text-decoration: none;
-    border-style:solid;
-    color: #3f2519;
-}
-
- /*cambio el color del boton*/   
-.card a:hover{
-    background-color:#3f2519;
-    color: #fff;
-}
-
-.bebida-warm{
-    text-align: center;
-    font-family: Merriweather;
-    letter-spacing: 2px;
-    font-size: 25px;
-    border: solid #3f2519;
-    color: #fff;
-    background-color: #3f2519;
-}
-
-.bebida-warm_{
-    margin-bottom: 10px;
-    font-family: Merriweather, bold;
-    letter-spacing: 1px;
-    font-size: 25px;
-    text-decoration: underline;
-    color: #3f2519;
-}
-
-.bebida-warm_ p{
-    font-family: Open Sans;
-    font-size: 15px;
-    margin: 10px 20px;
-    text-align: justify;
-}
-
-.bebida-cold{
-    text-align: center;
-    font-family: Merriweather;
-    letter-spacing: 2px;
-    font-size: 25px;
-    border: solid #3f2519;
-    color: #fff;
-    background-color: #3f2519;
-}
-
-.bebida-cold_{
-    margin-bottom: 10px;
-    font-family: Merriweather, bold;
-    letter-spacing: 1px;
-    font-size: 25px;
-    text-decoration: underline;
-    color: #3f2519;
-}
-
-.bebida-cold_ p{
-    font-family: Open Sans;
-    font-size: 20px;
-    margin: 10px 20px;
-    text-align: justify;
 }
 
 footer{
