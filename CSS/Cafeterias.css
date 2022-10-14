@@ -125,7 +125,7 @@ a{
         h2{
             font-family: Merriweather, bold ;
             padding: 20px 0;
-            font-size: 25px;
+            font-size: 40px;
             text-align:center;
         }
 
@@ -193,8 +193,8 @@ a{
         }
 
         .light-box img {
-            width: 75vw;
-            max-height: 70vh;
+            width: 45vw;
+                        
         }
 
         .light-box:target{
@@ -204,8 +204,8 @@ a{
         .close{
             display: block;
             position: absolute;
-            top: 40px;
-            right: 40px;
+            top: 10px;
+            right:250px;
             background:bisque;
             color: #2e1c13;
             text-decoration: none;
@@ -235,8 +235,8 @@ a{
                 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             }
             .close {
-                top: 20px;
-                right: 20px;
+                top: 40px;
+                right: 40px;
             }
         }
 
