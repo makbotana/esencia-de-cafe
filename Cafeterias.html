@@ -4,139 +4,316 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esencia de Café</title>
-    <link rel="stylesheet" href="/CSS/Cafeterias.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <style type = "text/css">
-        nav{
-            background-color: #29160c;
-        }
-    </style> 
-
+    <link rel="preload" href="CSS/Stylesheet.css" as="style">
+    <link href="CSS/cafeterias.css"rel="stylesheet" >
+    <script src="https://kit.fontawesome.com/2bbcfe0434.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./Imagenes/cafeicono.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/bb7cac5529.js" crossorigin="anonymous"></script>    
-    </head>
+
+    <title>Web Cafe</title>
+     
+</head>
 
 <body>
-    <header>
-        <a href="#" class="logo">
-          <img src="./Imagenes/cafeicono.ico" alt="logo">
-          <h1 class="nombre">Esencia de Café</h1>
-        </a>
-        </header>  
-        <section class="nav-bg">
-          <nav class="navegacion-principal contenedor">
-            <a href="index.html">Inicio</a>
-            <a href="Historia.html">Historia</a>
-            <a href="Cafeterias.html">Cafeterias</a> 
-            <a href="Bebidas.html">Bebidas</a>
-            <a href="Contacto.html">Contacto</a> 
-          </nav>
-        </section>     
-     
+  <header>
+    <a href="#" class="logo">
+      <img src="./Imagenes/cafeicono.ico" alt="logo">
+      <h1 class="nombre">Esencia de Café</h1>
+    </a>
+    </header>  
+    <section class="nav-bg">
+      <nav class="navegacion-principal contenedor transparent">
+        <a href="index.html">Inicio</a>
+        <a href="Historia.html">Historia</a>
+        <a href="Cafeterias.html">Cafeterias</a> 
+        <a href="Bebidas.html">Bebidas</a>
+        <a href="Contacto.html">Contacto</a> 
+      </nav>
+    </section> 
 
-<main>
-    <main class="container"></main>
-        <div class="row">
-            <div class="col s12 center-align"></div>
-            <h2 class="titulo"> Cafeterías temáticas</h2>
-        </div>
-
-        <div class="row galeria">
-                <div class="col s12 m4  l3">
-                    <div class="material-placeholder">
-                        <img src="/Imagenes/vhs.jpeg" class="responsive-img materialboxed " alt="" data-caption="'VHS CAFE' Fray Justo Sta. María de Oro 1702">     
-                    </div>
-                </div>
-
-                <div class="col s12 m4  l3">
-                    <div class="material-placeholder">
-                        <img src="/Imagenes/kawaii.jpeg" class="responsive-img materialboxed " alt="" data-caption="'KAWAII CLUB CAFE' Av. Medrano 1232'">     
-                    </div>
-                </div>
-
-                <div class="col s12 m4  l3">
-                    <div class="material-placeholder">
-                        <img src="/Imagenes/aokuma.jpeg" class="responsive-img materialboxed " alt="" data-caption="'AOKUMA CAFE' Fray Justo Sta. María de Oro 2280">     
-                    </div>
-                </div>
-
-                <div class="col s12 m4  l3">
-                    <div class="material-placeholder">
-                        <img src="/Imagenes/knowhere.jpeg" class="responsive-img materialboxed " alt="" data-caption="'KNOWHERE COLLECTIBLES' Honduras 5720" >     
-                    </div>
-                </div>
-
-            
-
-
-    <main class="container"></main>
-        <div class="row">
-            <div class="col s12 center-align"></div>
-            <h2 class="titulo"> Cafeterías de Especialidad</h2>
-            </div>
-
-                <div class="col s12 m4  l3">
-                    <div class="material-placeholder">
-                        <img src="/Imagenes/mkaffee.jpeg" class="responsive-img materialboxed " alt="" data-caption="'M KAFFEE' Arroyo 848">     
-                    </div>
-                </div>
-
-                        
-                <div class="col s12 m4  l3">
-                    <div class="material-placeholder">
-                        <img src="/Imagenes/usina.jpg" class="responsive-img materialboxed " alt="" data-caption="'USINA CAFETERA' Av Triunvirato 4307">     
-                    </div>
-                </div>
-
-                <div class="col s12 m4  l3">
-                    <div class="material-placeholder">
-                        <img src="/Imagenes/angela.jpeg" class="responsive-img materialboxed " alt="" data-caption="'ANGELA DELI & COFFEE' Ruiz Huidobro 2315">     
-                    </div>
-                </div>
-
-                <div class="col s12 m4  l3">
-                    <div class="material-placeholder">
-                        <img src="/Imagenes/gotran.jpeg" class="responsive-img materialboxed " alt="" data-caption="'GONTRAN CHERRIER' Zabala 1901">     
-                    </div>
-                </div>
-        </div>
-
-
-    </main>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script src="js/cafeterias.js"></script>
-
+    <!-- HEADER HASTA ACÁ TODO OK-->
     
-    <h2 class="titulo"> Ubicaciones</h2>
-    <div class="mapa">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1x8MmPZCfutWBGtcHeZJihDeN7nGSQT4&hl=es-419&ehbc=2E312F" width="100%" height="480" ></iframe>
-    </div>
 
+    <h2 class="titulo"> Cafeterías Temáticas</h2>
     <br><br>
 
-        <footer class="pie-pagina">
-            <section class="grupo1">
-                <figure>
-                    <a href="#">
-                        <img src="/Imagenes/cafeicono.ico" class="logo-pie" alt="logo">
-                    </a>
-                </figure>
-                <h4>Escencia de Café</h4>
-                <p class="frase"><i>"El café ayuda a quien duerme poco y sueña mucho"</i></p>
-                <ul class="redes">
-                    <li><a href="#" class="fa-brands fa-2x fa-facebook"></a></li>
-                    <li><a href="#" class="fa-brands fa-2x fa-instagram"></a></li>
-                    <li><a href="#" class="fa-brands fa-2x fa-whatsapp"></a></li>
-                </ul>
-            <section class="grupo2">   
-                <p><small> 2022 - <b>Esencia de Café &copy;</b> - Todos los Derechos Reservados</small></p>
-            </section> 
+    <section class="galeria">
+        <a href="#image1">
+            <img src="/Imagenes/aokuma1.jpg" alt="">
+        </a>
+        <a href="#image2">
+            <img src="/Imagenes/vhs.jpeg" alt="">
+        </a>
+        <a href="#image3">
+            <img src="/Imagenes/dearbear.jpeg" alt="">
+        </a>
+        <a href="#image4">
+            <img src="/Imagenes/kawaii.jpeg" alt="">
+        </a>
+        <a href="#image5">
+            <img src="/Imagenes/knowhere.jpeg" alt="">
+        </a>
+        <a href="#image6">
+            <img src="/Imagenes/heroanime.jpg" alt="">
+        </a>
+
+    </section>
+
+    <!--IMAGEN 1-->
+    <article class="light-box" id="image1">
+        <a href="#image6" class="next">
+            <i class="fa-solid fa-chevron-left">
+            </i>
+        </a>
+        <img src="/Imagenes/aokuma1.jpg" alt="">
+            
+        <a href="#image2" class="next"> </i>
+            <i class="fa-solid fa-chevron-right">
+            </i> 
+        </a>
+        <a href="#" class="close"> X </a>
+
+    </article>
+
+        <!--IMAGEN 2-->
+        <article class="light-box" id="image2">
+            <a href="#image1" class="next">
+                <i class="fa-solid fa-chevron-left">
+                </i>
+            </a>
+            <img src="/Imagenes/vhs.jpeg" alt="">
+                
+            <a href="#image3" class="next"> </i>
+                <i class="fa-solid fa-chevron-right">
+                </i> 
+            </a>
+            <a href="#" class="close"> X </a>
+    
+        </article>
+    
+            <!--IMAGEN 3-->
+    <article class="light-box" id="image3">
+        <a href="#image2" class="next">
+            <i class="fa-solid fa-chevron-left">
+            </i>
+        </a>
+        <img src="/Imagenes/dearbear.jpeg" alt="">
+            
+        <a href="#image4" class="next"> </i>
+            <i class="fa-solid fa-chevron-right">
+            </i> 
+        </a>
+        <a href="#" class="close"> X </a>
+
+    </article>
+
+        <!--IMAGEN 4-->
+        <article class="light-box" id="image4">
+            <a href="#image3" class="next">
+                <i class="fa-solid fa-chevron-left">
+                </i>
+            </a>
+            <img src="/Imagenes/kawaii.jpeg" alt="">
+                
+            <a href="#image5" class="next"> </i>
+                <i class="fa-solid fa-chevron-right">
+                </i> 
+            </a>
+            <a href="#" class="close"> X </a>
+    
+        </article>
+    
+
+            <!--IMAGEN 5-->
+    <article class="light-box" id="image5">
+        <a href="#image4" class="next">
+            <i class="fa-solid fa-chevron-left">
+            </i>
+        </a>
+        <img src="/Imagenes/knowhere.jpeg" alt="">
+            
+        <a href="#image6" class="next"> </i>
+            <i class="fa-solid fa-chevron-right">
+            </i> 
+        </a>
+        <a href="#" class="close"> X </a>
+
+    </article>
+
+    <!--IMAGEN 6-->
+    <article class="light-box" id="image6">
+        <a href="#image5" class="next">
+            <i class="fa-solid fa-chevron-left">
+            </i>
+        </a>
+        <img src="/Imagenes/heroanime.jpg" alt="">
+            
+        <a href="#image1" class="next"> </i>
+            <i class="fa-solid fa-chevron-right">
+            </i> 
+        </a>
+        <a href="#" class="close"> X </a>
+
+    </article>
+
+
+
+    <h2 class="titulo"> Cafeterías de Especialidad</h2>
+    <br><br>
+
+    <section class="galeria">
+        <a href="#image7">
+            <img src="/Imagenes/angela.jpeg" alt="">
+        </a>
+        <a href="#image8">
+            <img src="/Imagenes/borja.jpeg" alt="">
+        </a>
+        <a href="#image9">
+            <img src="/Imagenes/gotran.jpeg" alt="">
+        </a>
+        <a href="#image10">
+            <img src="/Imagenes/mkaffee.jpeg" alt="">
+        </a>
+        <a href="#image11">
+            <img src="/Imagenes/registrado.jpg" alt="">
+        </a>
+        <a href="#image12">
+            <img src="/Imagenes/usina.jpg" alt="">
+        </a>
+
+    </section>
+
+        <!--IMAGEN 7-->
+        <article class="light-box" id="image7">
+            <a href="#image12" class="next">
+                <i class="fa-solid fa-chevron-left">
+                </i>
+            </a>
+            <img src="/Imagenes/angela.jpeg" alt="">
+                
+            <a href="#image8" class="next"> </i>
+                <i class="fa-solid fa-chevron-right">
+                </i> 
+            </a>
+            <a href="#" class="close"> X </a>
+    
+        </article>
+
+            <!--IMAGEN 8-->
+    <article class="light-box" id="image8">
+        <a href="#image7" class="next">
+            <i class="fa-solid fa-chevron-left">
+            </i>
+        </a>
+        <img src="/Imagenes/borja.jpeg" alt="">
+            
+        <a href="#image9" class="next"> </i>
+            <i class="fa-solid fa-chevron-right">
+            </i> 
+        </a>
+        <a href="#" class="close"> X </a>
+
+    </article>
+
+        <!--IMAGEN 9-->
+        <article class="light-box" id="image9">
+            <a href="#image8" class="next">
+                <i class="fa-solid fa-chevron-left">
+                </i>
+            </a>
+            <img src="/Imagenes/gotran.jpeg" alt="">
+                
+            <a href="#image10" class="next"> </i>
+                <i class="fa-solid fa-chevron-right">
+                </i> 
+            </a>
+            <a href="#" class="close"> X </a>
+    
+        </article>
+
+            <!--IMAGEN 10-->
+    <article class="light-box" id="image10">
+        <a href="#image9" class="next">
+            <i class="fa-solid fa-chevron-left">
+            </i>
+        </a>
+        <img src="/Imagenes/mkaffee.jpeg" alt="">
+            
+        <a href="#image11" class="next"> </i>
+            <i class="fa-solid fa-chevron-right">
+            </i> 
+        </a>
+        <a href="#" class="close"> X </a>
+
+    </article>
+
+    <!--IMAGEN 11-->
+    <article class="light-box" id="image11">
+        <a href="#image10" class="next">
+            <i class="fa-solid fa-chevron-left">
+            </i>
+        </a>
+        <img src="/Imagenes/registrado.jpg" alt="">
+            
+        <a href="#image12" class="next"> </i>
+            <i class="fa-solid fa-chevron-right">
+            </i> 
+        </a>
+        <a href="#" class="close"> X </a>
+
+    </article>
+
+        <!--IMAGEN 12-->
+        <article class="light-box" id="image12">
+            <a href="#image11" class="next">
+                <i class="fa-solid fa-chevron-left">
+                </i>
+            </a>
+            <img src="/Imagenes/usina.jpg" alt="">
+                
+            <a href="#image7" class="next"> </i>
+                <i class="fa-solid fa-chevron-right">
+                </i> 
+            </a>
+            <a href="#" class="close"> X </a>
+    
+        </article>
+    
+
+
+
+    
+
+
+
+
+
+    <!-- FOOTER-->
+
+    <footer class="pie-pagina">
+        <section class="grupo1">
+            <figure>
+                <a href="#">
+                    <img src="/Imagenes/cafeicono.ico" class="logo-pie" alt="logo">
+                </a>
+            </figure>
+            <h4>Escencia de Café</h4>
+            <p class="frase"><i>"El café ayuda a quien duerme poco y sueña mucho"</i></p>
+            <ul class="redes">
+                <li><a href="#" class="fa-brands fa-2x fa-facebook"></a></li>
+                <li><a href="#" class="fa-brands fa-2x fa-instagram"></a></li>
+                <li><a href="#" class="fa-brands fa-2x fa-whatsapp"></a></li>
+            </ul>
+        <section class="grupo2">   
+            <p><small> 2022 - <b>Esencia de Café &copy;</b> - Todos los Derechos Reservados</small></p>
+        </section> 
        
       </footer>
+
+
+
+
+
+
+      <script src="https://kit.fontawesome.com/2bbcfe0434.js" crossorigin="anonymous"></script>
+
 </body>
-</html>
-
-
-
