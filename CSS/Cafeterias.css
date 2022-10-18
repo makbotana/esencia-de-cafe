@@ -125,7 +125,7 @@ a{
         h2{
             font-family: Merriweather, bold ;
             padding: 20px 0;
-            font-size: 40px;
+            font-size: 25px;
             text-align:center;
         }
 
@@ -193,8 +193,8 @@ a{
         }
 
         .light-box img {
-            width: 45vw;
-                        
+            width: 75vw;
+            max-height: 70vh;
         }
 
         .light-box:target{
@@ -204,8 +204,8 @@ a{
         .close{
             display: block;
             position: absolute;
-            top: 10px;
-            right:250px;
+            top: 40px;
+            right: 40px;
             background:bisque;
             color: #2e1c13;
             text-decoration: none;
@@ -235,28 +235,47 @@ a{
                 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             }
             .close {
-                top: 40px;
-                right: 40px;
+                top: 20px;
+                right: 20px;
             }
         }
 
 
+/*boton*/
+
+.container{
+    width: 100%;
+    display: flex;
+    width: 150px;
+    font-family: Merriweather;
+    font-weight: 700;
+    background-color: #2e1c13;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 150px 130px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.boton{
+    display: block;
+    width: 80px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+
+
+
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-        /*ABRO FOOTER */
+    /*ABRO FOOTER */
 
 
 footer{

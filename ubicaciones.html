@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="CSS/Stylesheet.css" as="style">
+    <script src="/javascript/data.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link href="CSS/ubicaciones.css"rel="stylesheet" >
+    <script type="module" src="/javascript/map.js"></script>
+
+    <script src="https://kit.fontawesome.com/2bbcfe0434.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Imagenes/cafeicono.ico" type="image/x-icon">
+
+    <title>Web Cafe</title>
+     
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">
+      <img src="./Imagenes/cafeicono.ico" alt="logo">
+      <h1 class="nombre">Esencia de Café</h1>
+    </a>
+    </header>  
+    <section class="nav-bg">
+      <nav class="navegacion-principal contenedor transparent">
+        <a href="index.html">Inicio</a>
+        <a href="Historia.html">Historia</a>
+        <a href="Cafeterias.html">Cafeterias</a> 
+        <a href="Bebidas.html">Bebidas</a>
+        <a href="Contacto.html">Contacto</a> 
+      </nav>
+    </section> 
+    <br><br><br><br>
+    
+    <h2> Ubicaciones </h2>
+
+    <br><br>
+
+    <div class ="cafeterias">
+            <h3> Lista de Cafeterías </h3>
+            <div class="nombres_cafeterias" id="nombres_cafeterias"></div>
+
+    </div>
+    <div id="map"></div>
+
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpxtK6C3ZmXata769UV2AwIumDYYXSeUM&callback=initMap&v=weekly"
+    defer>
+    </script>
+
+
+</body>
