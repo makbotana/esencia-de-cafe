@@ -251,7 +251,7 @@ footer{
 
 /*media querys*/
 
-@media (max-width: 1200px){
+@media (max-width: 1300px){
     .logo img{
         margin-top: 20vh;
 }    
@@ -259,10 +259,12 @@ footer{
 
 @media (max-width: 960px){
     .logo img{
+        width: 43px;
         margin-top: 18.5vh;
     }
     .nombre{
         font-size: 48px;
+        margin-right: 60px;
     }
     .navegacion-principal {
         font-size: 20px;
@@ -274,12 +276,12 @@ footer{
         min-height: 220px ;
     }
     .logo img{
-        width: 44px;
+        width: 40px;
         margin-top: 17vh;
     }
     .nombre{
-        font-size:38px;
-        margin-right: 60px;
+        font-size: 38px;
+        margin-right: 56px;
     }
     .navegacion-principal {
         font-size: 18px;
@@ -339,12 +341,12 @@ footer{
         min-height: 180px ;
     }
     .logo img{
-        width: 38px;
+        width: 36px;
         margin-top: 14.5vh;
     }
     .nombre{
         font-size:30px;
-        margin-right: 54px;
+        margin-right: 52px;
         margin-top: 70px;
         letter-spacing: 1px;
     }
@@ -420,7 +422,7 @@ footer{
     }
     .nombre{
         font-size:23px;
-        margin-right: 42px;
+        margin-right: 38px;
         margin-top: 70px;
         letter-spacing: 1px;
         background-color: black;
