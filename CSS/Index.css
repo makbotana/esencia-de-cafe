@@ -24,10 +24,10 @@ a{
     width: 100%;
 }
 
-.logo img{
-    width: 50px;
-    padding-top: 7.5%;
-    margin-right: 475px;
+.logo img{ 
+        width: 50px;
+        padding-top: 7px;
+        margin-right: 400px
 }
 
 .nombre{
@@ -37,10 +37,8 @@ a{
     font-weight: 300;
     font-style: italic;
     font-size: 60px;
-    padding-top: 7%;
-    padding-right: 40px;
-    letter-spacing: 2px;
-    margin-top: 0%;
+    padding-right: 5px;
+    padding-top: 10px;
 }
 
 .navegacion-principal {
@@ -121,7 +119,7 @@ a{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
-    margin-left: 170px;
+    margin-left: 200px;
 }
 
 .seccion .icono2 {
@@ -133,7 +131,7 @@ a{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
-    margin-left: 170px
+    margin-left: 200px
     
 }
 
@@ -252,7 +250,7 @@ footer{
 }
 
 /*responsive web*/
-@media (min-width: 780px) {
+@media (min-width: 790px) {
 .navegacion-principal {
 flex-direction: row;
 justify-content: space-between;
@@ -280,4 +278,17 @@ justify-content: space-between;
 .logo{
     width: 100%;
 }
+.nombre{
+    padding-top: 7%;
+    padding-right: 40px;
+    letter-spacing: 2px;
+    margin-top: 0%;
 }
+.logo img{
+    width: 50px;
+    padding-top: 7.5%;
+    margin-right: 475px;
+}
+
+}
+

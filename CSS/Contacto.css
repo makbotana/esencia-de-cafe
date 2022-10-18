@@ -25,10 +25,10 @@ a{
     width: 100%;
 }
 
-.logo img{
+.logo img{ 
     width: 50px;
-    padding-top: 7.5%;
-    margin-right: 475px;
+    padding-top: 7px;
+    margin-right: 400px
 }
 
 .nombre{
@@ -37,11 +37,10 @@ a{
     text-align: center;
     font-weight: 300;
     font-style: italic;
-    font-size: 60px;
-    padding-top: 7%;
-    padding-right: 40px;
-    letter-spacing: 2px;
-    margin-top: 0%;
+    font-size: 50px;
+    padding-right: 60px;
+    padding-top: 10px;
+    
 }
 
 .nav-bg{
@@ -223,7 +222,7 @@ footer{
 }
 /* responsive */
 
-@media (min-width: 760px){
+@media (min-width: 780px){
     .navegacion-principal {
         flex-direction: row;
         justify-content: space-between;
@@ -232,4 +231,16 @@ footer{
         width: 800px;
         margin: auto;
 }
+.nombre{
+    padding-top: 7%;
+    padding-right: 40px;
+    letter-spacing: 2px;
+    margin-top: 0%;
+}
+.logo img{
+    width: 50px;
+    padding-top: 7.5%;
+    margin-right: 475px;
+}
+
 }
