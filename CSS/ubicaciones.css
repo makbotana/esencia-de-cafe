@@ -150,7 +150,6 @@ a{
     background-color: #2e1c13;
     opacity: 0.8;
     border-radius: 20px;
-    font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -166,7 +165,62 @@ a{
     
 .nombres_cafeterias{
     flex:1;
-    padding:2rem;
+    padding:1rem;
     cursor: pointer;
+    font-family: Merriweather;
+    line-height: 25px;
 
+
+
+}
+
+.window{
+    height: fit-content;
+    width: fit-content;
+    background-color: #2e1c13;
+    color: #fff;
+    padding: 0 2rem;
+    /*opacity: 0.8;*/
+}
+
+.window > h2 {
+    border-bottom: 3px solid white !important;
+}
+
+
+
+.gm-style-iw{
+    background: #2e1c13 !important;
+    opacity: 0.8 !important;
+    box-shadow: 0 2px 7px 7px rgba(0, 0, 0, .5);
+}
+
+.gm-style-iw-d{
+    overflow: hidden !important;
+}
+
+.address, .insta{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.address > i{
+    margin-right: 1rem;
+    color: #fff;
+}
+
+.insta > i{
+    margin-right: 1rem;
+    color: #fff;
+}
+
+.gm-style-iw-t::after{
+    visibility: hidden; 
+}
+
+.gm-ui-hover-effect{
+    background: white !important;
+    border-radius: 50% !important;
 }
