@@ -1,177 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather:ital@1&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather:ital@1&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     background-image: url(/imagenes/granos4.jpg);
     background-size: cover;
-    height: 250px ;
+    min-height: 250px;
+    display: flex;
+    position: relative;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.logo{
+.logo {
     display: flex;
-    justify-content: right;
-    align-items: right;    
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
     width: 100%;
 }
 
-.logo img{
-    width: 50px;
-    padding-top: 7.5%;
-    margin-right: 475px;
+.logo img {
+    width: 48px;
+    height: auto;
+    margin-right: 7px;
+    margin-top: 15vh;
 }
 
-.nombre{
+.nombre {
     position: absolute;
     color: #fff;
     text-align: center;
     font-weight: 300;
     font-style: italic;
-    font-size: 60px;
-    padding-top: 7%;
-    padding-right: 40px;
+    font-size: 58px;
+    margin-top: 80px;
+    margin-right: 65px;
     letter-spacing: 2px;
-    margin-top: 0%;
 }
-
-/*El .titulo solo esta en Historia*/
-.titulo {
-    text-align: center;
-    font-size: 40px;
-    font-family: Merriweather;
-    font-size: 55px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color:#2e1c13;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
 
 .navegacion-principal {
     text-align: center;
     font-family: Merriweather;
     font-style: italic;
-    font-size: 22px;
+    font-size: 25px;
 }
 
-.contenedor {
+.navegacion-principal.contenedor {
     max-width: 120rem;
-    margin:0 auto;
-
+    margin: 0 auto;
 }
-.nav-bg{
+
+.nav-bg {
     background-color: #29160c;
-
-}
-.navegacion-principal a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .navegacion-principal {
     padding: 1rem;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
+.navegacion-principal a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
 
-.navegacion-principal a:hover{
-    background-color: #9c7461;
+.navegacion-principal a:hover {
+    background-color: #8f7367;
     color: #2e1c13;
     padding: 1rem;
 }
 
-body{
-    background-image: url(/Imagenes/papel1.jpg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+    background-color: #d7af9e;
 }
 
-.img-cafeto{
+/*MAIN*/
+/*El .titulo solo esta en Historia*/
+.titulo {
     text-align: center;
-}
-.cafeto{
-    width: 60%;
-    height: auto;
-}
-
-.histo{
-    background-color: #3f2519;
-    margin: 0px 10px;
-    padding: 5px;
-    border-radius: 5px;
-   
-    }
-   
-
-.fruto{
-    width: 250px;
-    margin: 10px;
-    float: left;
-    margin-right: 15px;
+    font-family: Merriweather;
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #2e1c13;
+    margin-top: 3%;
+    margin-bottom: 15px;
 }
 
-.montaña{
-    width: 470px;
+.intro p{
+    color: #29160c;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 600;
     margin: 15px;
-    float: right;
-    margin-left: 15px;
+    line-height: 1.5;
+    text-align: justify;
 }
 
-.dibujo{
-    width: 460px;
-    margin: 15px;
-    float: left;
-    margin-right: 15px;
+.video{
+    width: 560px; 
+    height: 315px;
+    position: relative;
+    display: block;
+    margin: auto;
 }
 
-.cinturon{
-    height: 80vh;
-    margin: 15px;
-    padding-left: 115px;
-    display: flex;
-    justify-content: center;
+.video iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
-.granoscafe{
-    width: 320px;
-    margin: 15px;
-    float: left;
-    margin-right: 15px;
-}
-
-.granoscafe1{
-    width: 420px;
-    margin: 15px;
-    float: right;
-    margin-left: 15px;
-}
-
-h2{
+h2 {
     font-family: Merriweather, cursive;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 1px;
-    margin: 3%;
+    margin: 1%;
     text-decoration: underline;
-    color: #29160c;
+    color: #fff;
 }
 
-p{
+p {
     font-family: Open Sans;
     font-size: 16px;
     line-height: 1.5;
@@ -181,60 +144,92 @@ p{
     color: #fff;
 }
 
-.subhisto{
+.histo {
+    background-color: #3f2519;
+    margin: 30px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 3px lightblue;
+}
+
+.histo_mapa {
+    background-color: #3f2519;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.fruto {
+    width: 18%;
+    min-width: 171px;
+    margin: 10px;
+    float: left;
+    margin-right: 15px;
+}
+
+.montaña {
+    width: 40%;
+    min-width: 400px;
+    margin: 15px;
+    margin-bottom: 0;
+    float: right;
+}
+
+.dibujo {
+    width: 25%;
+    min-width: 200px;
+    margin: 15px;
+    float: left;
+}
+
+.cinturon {
+    width: 50%;
+    min-width: 400px;
+    margin: 15px auto 5px auto;
+    margin-inline-start: 25%;
+}
+
+.granoscafe {
+    width: 30%;
+    min-width: 270px;
+    margin: 20px 15px;
+    float: right;
+}
+
+.granoscafe1 {
+    width: 30%;
+    min-width: 300px;
+    margin: 15px;
+    float: left;
+}
+
+.subhisto {
     font-family: Merriweather, cursive;
-    font-size: 20px;
+    font-size: 25px;
     color: #9c7461;
     margin-left: 15px;
-}
-
-section.galeria{
-    margin: 10px 20px;
-    box-shadow: 0 4px 8px 0 rgb(58, 19, 19);
-    float: left;
-    width: 300px;
-}
-
-section.galeria img{
-    width: 100%;
-    height: auto;
-}
-
-section.galeria:hover{
-    border: 1px solid rgb(105, 33, 33);
-    transform: rotate(-3deg);
-}
-
-section.pie{
-    text-align: center;
-    text-shadow: 2px 2px 5px rgb(63, 6, 6);
-    padding: 10px;
-    background-color: rgb(238, 232, 232);
-}
-h3{
-    font-family: Merriweather, cursive;
-    font-size: 30px;
     letter-spacing: 1px;
     margin: 15px;
     padding: 5px;
-    text-decoration: underline;
-    color: #29160c;
 }
 
 /*FOOTER*/
-footer{
+
+footer {
     background-color: #2e1c13;
     height: auto;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 5px;
     color: #fff;
 }
 
-.logo-pie{
+.logo-pie {
     width: 60px;
 }
 
-.pie-pagina{
+.pie-pagina {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,69 +237,122 @@ footer{
     text-align: center;
 }
 
-.grupo1 h4{
+.grupo1 h4 {
     font-size: 20px;
     font-weight: 400;
     font-family: Merriweather;
     text-transform: capitalize;
-    line-height: 3rem;
+    line-height: 2rem;
 }
 
-.grupo1 p{
+.grupo1 p {
     max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 25px;
     font-size: 14px;
     font-family: Open Sans;
 }
 
-.frase{
+.frase {
     padding-bottom: 10px;
 }
 
-.redes{
+.redes {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.redes li{
+.redes li {
     margin: 0 15px;
 }
 
-.redes a{
+.redes a {
     text-decoration: none;
     color: #fff;
 }
 
-.redes a i{
+.redes a i {
     font-size: 20px;
     transition: color 4s ease;
 }
 
-.redes a:hover{
+.redes a:hover {
     color: #9c7461;
 }
 
-.grupo2{
-    padding: 10px 10px;
+.grupo2 {
+    padding: 5px;
     text-align: center;
 }
 
-.grupo2 p{
+.grupo2 p {
     font-size: 16px;
     font-family: Open Sans;
     word-spacing: 2px;
     text-align: center;
-    padding: 15px 10px;
+    padding: 0px 5px;
 }
 
-/* responsive*/
+/*MEDIA QUERIES*/
 
-@media (min-width: 780px) {
-.navegacion-principal {
-flex-direction: row;
-justify-content: space-between;
+@media (max-width: 1200px){
+    .logo img{
+        margin-top: 17vh;
+    }
+    .granoscafe {
+        width: 30%;
+        margin: 50px 15px;
+    }    
 }
+
+@media (max-width: 960px){
+    .logo img{
+        margin-top: 16vh;
+    }
+    .nombre{
+        font-size: 48px;
+    }
+    .navegacion-principal {
+        font-size: 20px;
+    }
+    .titulo {
+        font-size: 55px;
+    }
+    
+    .intro p{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 2;
+    }
+    .fruto {
+        margin-top: 10px;
+        margin-bottom: 0;
+        width: 20%;
+    }
+    .montaña {
+        width: 40%;
+        margin-top: 50px;
+    }
+    .dibujo {
+        margin-top: 15px;
+        margin-bottom: 0px;
+        width: 28%;
+    }
+    .granoscafe {
+        width: 30%;
+        margin: 15px 15px;
+    }
+    
+    .subhisto {
+        font-size: 23px;
+        margin: 10px;
+    }
 }

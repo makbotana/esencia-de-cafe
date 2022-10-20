@@ -31,7 +31,7 @@ a{
     width: 48px;
     height: auto;
     margin-right: 7px;
-    margin-top: 17vh;
+    margin-top: 19vh;
 }
 
 .nombre{
@@ -251,20 +251,12 @@ footer{
 
 /*media querys*/
 
-@media (max-width: 1300px){
-    .logo img{
-        margin-top: 20vh;
-}    
-}
-
 @media (max-width: 960px){
     .logo img{
-        width: 43px;
-        margin-top: 18.5vh;
+        margin-top: 17.5vh;
     }
     .nombre{
         font-size: 48px;
-        margin-right: 60px;
     }
     .navegacion-principal {
         font-size: 20px;
@@ -276,12 +268,12 @@ footer{
         min-height: 220px ;
     }
     .logo img{
-        width: 40px;
-        margin-top: 17vh;
+        width: 44px;
+        margin-top: 16vh;
     }
     .nombre{
-        font-size: 38px;
-        margin-right: 56px;
+        font-size:38px;
+        margin-right: 60px;
     }
     .navegacion-principal {
         font-size: 18px;
@@ -295,24 +287,13 @@ footer{
         display: flex;
         justify-content: space-around;
     }
-    footer{
-        background-color: #2e1c13;
-        height: auto;
-        padding-top: 5px;
-    }
     .logo-pie{
         width: 45px;
     }
     .grupo1 h4{
         font-size: 18px;
-        font-weight: 400;
-        font-family: Merriweather;
-        text-transform: capitalize;
-        line-height: 2rem;
     }    
     .grupo1 p{
-        max-width: 500px;
-        margin: 5px auto;
         line-height: 18px;
         font-size: 12px;
     }    
@@ -341,12 +322,12 @@ footer{
         min-height: 180px ;
     }
     .logo img{
-        width: 36px;
-        margin-top: 14.5vh;
+        width: 38px;
+        margin-top: 14vh;
     }
     .nombre{
         font-size:30px;
-        margin-right: 52px;
+        margin-right: 54px;
         margin-top: 70px;
         letter-spacing: 1px;
     }
@@ -362,24 +343,13 @@ footer{
         display: flex;
         justify-content: space-around;
     }
-    footer{
-        background-color: #2e1c13;
-        height: auto;
-        padding-top: 5px;
-    }
     .logo-pie{
         width: 45px;
     }
     .grupo1 h4{
         font-size: 18px;
-        font-weight: 400;
-        font-family: Merriweather;
-        text-transform: capitalize;
-        line-height: 2rem;
-    }
+    }    
     .grupo1 p{
-        max-width: 500px;
-        margin: 5px auto;
         line-height: 18px;
         font-size: 12px;
     }    
@@ -422,7 +392,7 @@ footer{
     }
     .nombre{
         font-size:23px;
-        margin-right: 38px;
+        margin-right: 42px;
         margin-top: 70px;
         letter-spacing: 1px;
         background-color: black;
@@ -448,6 +418,7 @@ footer{
         grid-gap: 25px;
         margin: 40px;
     }
+
     .contenedor-galeria figure{
         width: 350px;
         height: 200px;
@@ -460,37 +431,25 @@ footer{
     .contenedor-galeria figure .capa p{
         font-size: 11px;
     }
-    footer{
-        background-color: #2e1c13;
-        height: auto;
-        padding-top: 5px;
-    }
     .logo-pie{
         width: 35px;
     }
     .grupo1 h4{
         font-size: 18px;
-        font-weight: 400;
-        font-family: Merriweather;
-        text-transform: capitalize;
         line-height: 1rem;
     }    
     .grupo1 p{
-        max-width: 500px;
         margin: 5px;
         line-height: 12px;
         font-size: 10px;
     }
-    
     .frase{
         padding-bottom: 5px;
     }    
-    
     .redes li{
         margin: 0 15px;
         font-size: x-small;
     }
-
     .grupo2{
         padding: 2px;
         text-align: center;
