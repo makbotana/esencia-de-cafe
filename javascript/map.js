@@ -1,5 +1,6 @@
 let map;
 let markers = [];
+let infoWindow;
 
 const setListener = ()=>{
     document.querySelectorAll(".ubicacion_individualNombres").forEach((ubicacionname, index)=>{
@@ -70,7 +71,7 @@ function initMap() {
   })
 
 
-    const infoWindow = new google.maps.InfoWindow();
+    infoWindow = new google.maps.InfoWindow();
     displayListaUbicaciones()
 
     setListener();
