@@ -158,7 +158,7 @@ a{
 .cafeterias > h3 {
     text-align: center;
     font-family: Merriweather;
-    font-size: 10px;
+    font-size: 20px;
     padding: 1rem;
     border-bottom:3px solid white ;
 }
@@ -169,7 +169,7 @@ a{
     cursor: pointer;
     font-family: Merriweather;
     line-height: 25px;
-
+    
 
 
 }
@@ -180,11 +180,11 @@ a{
     background-color: #2e1c13;
     color: #fff;
     padding: 0 2rem;
-    /*opacity: 0.8;*/
+    
 }
 
 .window > h2 {
-    border-bottom: 3px solid white !important;
+    font-size: 16px;
 }
 
 
@@ -203,6 +203,7 @@ a{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 10px;
 
 }
 
@@ -223,4 +224,122 @@ a{
 .gm-ui-hover-effect{
     background: white !important;
     border-radius: 50% !important;
+}
+
+
+@media (max-width: 960px) {
+    .cafeterias {
+    position: absolute;
+    top: 150vh;
+    left: 5vw;
+    width: 150px;
+    height: 350px;
+    border: 2px solid black;
+    z-index: 5;
+    color: white;
+    background-color: #2e1c13;
+    opacity: 0.8;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    }
+
+    .cafeterias > h3 {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 18px;
+    padding: 1rem;
+    border-bottom:3px solid white ;
+    }
+    
+    .nombres_cafeterias{
+    flex:1;
+    padding:1rem;
+    cursor: pointer;
+    font-family: Merriweather;
+    line-height: 15px;
+    font-size: 14px;
+    }
+
+    .window{
+        height: fit-content;
+        width: fit-content;
+        background-color: #2e1c13;
+        color: #fff;
+        padding: 0 1rem;
+        
+    }
+    
+    .window > h2 {
+        font-size: 12px;
+    }
+
+    .address, .insta{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 8px;
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .cafeterias {
+    position: absolute;
+    top: 120vh;
+    left: 5vw;
+    width: 100px;
+    height: 250px;
+    border: 2px solid black;
+    z-index: 5;
+    color: white;
+    background-color: #2e1c13;
+    opacity: 0.8;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    }
+
+    .cafeterias > h3 {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 10px;
+    padding: 1rem;
+    border-bottom:3px solid white ;
+    }
+    
+    .nombres_cafeterias{
+    flex:1;
+    padding:1rem;
+    cursor: pointer;
+    font-family: Merriweather;
+    line-height: 12px;
+    font-size: 8px;
+
+    }
+
+    .window{
+        height: fit-content;
+        width: fit-content;
+        background-color: #2e1c13;
+        color: #fff;
+        padding: 0 1rem;
+        
+    }
+    
+    .window > h2 {
+        font-size: 10px;
+    }
+
+    .address, .insta{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 8px;
+    
+    }
 }
