@@ -257,14 +257,14 @@ a{
 /*boton*/
 
 .container{
-    padding-top: 200px;
-    width: 50px;
-    background-color: #2e1c13;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin:0 auto;
+    padding-top: 200px !important;
+    width: 100% !important;
+    background-color: #2e1c13 !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    margin:0 auto !important;
     
 }
 
@@ -274,18 +274,16 @@ a{
     padding: 20px 15px;
     display: inline-block;
     font-family: merriweather;
-
-
-}
-
-.enlace{
     color: white;
     background-color: #2e1c13;
-    margin-left: 600px;
     margin-bottom: 50px;
+
+
 }
 
-.enlace:hover{
+
+
+.boton:hover{
     background-color: #755140;
 }
 

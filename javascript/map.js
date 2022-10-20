@@ -1,6 +1,5 @@
 let map;
 let markers = [];
-let infoWindow;
 
 const setListener = ()=>{
     document.querySelectorAll(".ubicacion_individualNombres").forEach((ubicacionname, index)=>{
@@ -18,7 +17,8 @@ const displayListaUbicaciones = ()=>{
     document.getElementById("nombres_cafeterias").innerHTML=ubicacionHTML;
 }
 
-const createMarker = (coord,name, address, insta)=>{
+const createMarker = (coord,name, address, insta,infoWindow)=>{
+    
     let html = `
         <div class="window">
             <h2>${name}</h2>
@@ -45,36 +45,31 @@ const createMarker = (coord,name, address, insta)=>{
     markers.push(marker)
 }
 
-const createLocationMarkers = ()=>{
+const createLocationMarkers = (infoWindow)=>{
     ubicaciones.forEach(ubicacion=>{
         let coord = new google.maps.LatLng(ubicacion.lat,ubicacion.lng);
         let name = ubicacion.name;
         let address = ubicacion.address;
         let insta = ubicacion.insta;
 
-        createMarker(coord,name, address, insta);
+        createMarker(coord,name, address, insta,infoWindow);
     })
 
 }
 
 function initMap() {
+    const infoWindow = new google.maps.InfoWindow();
     let centro = { lat: -34.56735999721554, lng: -58.4515164158263 }
   map = new google.maps.Map(document.getElementById("map"), {
     center: centro,
     zoom: 13,
   });
+  
+createLocationMarkers(infoWindow);
 
- createLocationMarkers();
- const marker = new google.maps.Marker({
-    position: centro,
-    map:map,
-  })
+displayListaUbicaciones()
 
-
-    infoWindow = new google.maps.InfoWindow();
-    displayListaUbicaciones()
-
-    setListener();
+setListener();
  
 }
 window.initMap = initMap;
