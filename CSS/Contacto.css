@@ -5,30 +5,45 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    line-height: 1; /*SOLUCION al espacio blanco arriba del footer*/
 }
 
-header{
+body{
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03;
+    line-height: 1.6;
+    background-color: #d7af9e;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
     background-image: url(/imagenes/granos4.jpg);
     background-size: cover;
-    height: 250px ;
+    min-height: 250px;
+    display: flex;
+    position: relative;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.logo{
+.logo {
     display: flex;
-    justify-content: right;
-    align-items: right;    
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
     width: 100%;
 }
 
-.logo img{ 
-    width: 50px;
-    padding-top: 7px;
-    margin-right: 400px
+.logo img {
+    width: 48px;
+    height: auto;
+    margin-right: 7px;
+    margin-top: 17vh;
 }
 
 .nombre{
@@ -37,10 +52,10 @@ a{
     text-align: center;
     font-weight: 300;
     font-style: italic;
-    font-size: 50px;
-    padding-right: 60px;
-    padding-top: 10px;
-    
+    font-size: 58px;
+    margin-top: 80px;
+    margin-right: 65px;
+    letter-spacing: 2px;
 }
 
 .nav-bg{
@@ -61,7 +76,6 @@ a{
 .contenedor {
     max-width: 120rem;
     margin:0 auto;
-
 }
 
 .navegacion-principal a {
@@ -74,17 +88,6 @@ a{
     background-color: #9c7461;
     color: #2e1c13;
     padding: 1rem;
-}
-
-body{
-    width: 100%;
-    height: 100%;
-    letter-spacing: 0.03;
-    line-height: 1.6;
-    background-color: #ecb09cea;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 .titulo{
@@ -101,7 +104,6 @@ body{
 
 .formulario{
     width: 400px;
-    margin: auto;
     background-color: #2e1c13;
     padding: 20px 40px;
     box-sizing: border-box;
@@ -114,7 +116,9 @@ body{
 h2{
     color: #fff; 
     text-align: center;
-    
+    font-family: Merriweather;
+    font-weight: 400;
+    padding-bottom: 10px;
 }
 
 input, textarea{
@@ -125,7 +129,6 @@ input, textarea{
     font-size: 17px;
     border: none;
     font-family: 'Combo', cursive;
-    
 }
 
 textarea{
@@ -226,21 +229,20 @@ footer{
     .navegacion-principal {
         flex-direction: row;
         justify-content: space-between;
-        }
-        .formulario {
+    }
+    .formulario {
         width: 800px;
         margin: auto;
-}
-.nombre{
-    padding-top: 7%;
-    padding-right: 40px;
-    letter-spacing: 2px;
-    margin-top: 0%;
-}
-.logo img{
-    width: 50px;
-    padding-top: 7.5%;
-    margin-right: 475px;
-}
-
+    }
+    /*.nombre{
+        padding-top: 7%;
+        padding-right: 40px;
+        letter-spacing: 2px;
+        margin-top: 0%;
+    }
+    .logo img{
+        width: 50px;
+        padding-top: 7.5%;
+        margin-right: 475px;
+    }*/
 }

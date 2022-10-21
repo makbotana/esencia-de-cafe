@@ -14,7 +14,9 @@ body{
 header{
     background-image: url(/imagenes/granos4.jpg);
     background-size: cover;
-    height: 250px ;
+    min-height: 250px ;
+    display: flex;
+    position: relative;
 }
 
 a{
@@ -23,15 +25,18 @@ a{
 
 .logo{
     display: flex;
-    justify-content: right;
-    align-items: right;    
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: flex-start; 
+    padding: 10px; 
     width: 100%;
 }
 
-.logo img{ 
-        width: 50px;
-        padding-top: 7px;
-        margin-right: 400px
+.logo img{
+    width: 48px;
+    height: auto;
+    margin-right: 7px;
+    margin-top: 15vh;
 }
 
 .nombre{
@@ -40,9 +45,10 @@ a{
     text-align: center;
     font-weight: 300;
     font-style: italic;
-    font-size: 60px;
-    padding-right: 5px;
-    padding-top: 10px;
+    font-size: 58px;
+    margin-top: 80px;
+    margin-right: 65px;
+    letter-spacing: 2px;
 }
 
 .navegacion-principal {
@@ -290,7 +296,7 @@ justify-content: space-between;
 .logo{
     width: 100%;
 }
-.nombre{
+/*.nombre{
     padding-top: 7%;
     padding-right: 40px;
     letter-spacing: 2px;
@@ -300,7 +306,7 @@ justify-content: space-between;
     width: 50px;
     padding-top: 7.5%;
     margin-right: 475px;
-}
+}*/
 
 }
 

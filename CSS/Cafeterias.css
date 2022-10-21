@@ -7,40 +7,44 @@
     padding: 0;
 }
 
-header{
+header {
     background-image: url(/imagenes/granos4.jpg);
     background-size: cover;
-    height: 250px ;
+    min-height: 250px;
+    display: flex;
+    position: relative;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.logo{
+.logo {
     display: flex;
-    justify-content: right;
-    align-items: right;    
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
     width: 100%;
 }
 
-.logo img{
-    width: 50px;
-    padding-top: 7.5%;
-    margin-right: 475px;
+.logo img {
+    width: 48px;
+    height: auto;
+    margin-right: 7px;
+    margin-top: 17vh;
 }
 
-.nombre{
+.nombre {
     position: absolute;
     color: #fff;
     text-align: center;
     font-weight: 300;
     font-style: italic;
-    font-size: 60px;
-    padding-top: 7%;
-    padding-right: 40px;
+    font-size: 58px;
+    margin-top: 80px;
+    margin-right: 65px;
     letter-spacing: 2px;
-    margin-top: 0%;
 }
 
 .navegacion-principal {

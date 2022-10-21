@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #d7af9e;
+}
+
 header {
     background-image: url(/imagenes/granos4.jpg);
     background-size: cover;
@@ -81,10 +85,6 @@ a {
     background-color: #8f7367;
     color: #2e1c13;
     padding: 1rem;
-}
-
-body {
-    background-color: #d7af9e;
 }
 
 /*MAIN*/
