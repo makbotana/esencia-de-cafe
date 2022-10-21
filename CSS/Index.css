@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+body{
+    background-color: #d7af9e;;
+}
+
 header{
     background-image: url(/imagenes/granos4.jpg);
     background-size: cover;
@@ -76,8 +80,6 @@ a{
     padding: 1rem;
 }
 
-
-
 .cafe {
     background-image: url(/Imagenes/inicio.jpg);
     background-repeat: no-repeat;
@@ -101,19 +103,18 @@ a{
     display: grid;
     grid-template-columns: repeat 50% 50%;
     text-align: center;
+    font-family: Open Sans;
     margin: 0;
     padding: 0;
-    font-family: Open Sans;
-    font-size: 20px;
     display:flex;
     flex-direction: column;
-   justify-content: center;
+    justify-content: center;
 
 }
 .seccion .icono {
     height: 10rem;
     width: 10rem;
-    background-color: #9c7461;
+    background-color: #7d5341;
     border-radius: 50%;
     display: flex; 
     justify-content: space-evenly;
@@ -125,18 +126,30 @@ a{
 .seccion .icono2 {
     height: 10rem;
     width: 10rem;
-    background-color: #9c7461;
+    background-color: #7d5341;
     border-radius: 50%;
     display: flex; 
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
     margin-left: 200px
-    
 }
 
+h2{
+    font-size: 33px;
+    margin: 10px 15px;
+    color: #29160c;
+    font-family: Merriweather;
+    font-weight: 700;
+}
 
-
+p{
+    
+    margin: 10px;
+    padding: 10px;
+    font-size: 23px;
+    font-style:oblique;
+}
 
 .galeria{
     width: 90%;
@@ -175,7 +188,7 @@ footer{
     background-color: #2e1c13;
     height: auto;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 10px;
     color: #fff;
 }
 
@@ -237,7 +250,7 @@ footer{
 }
 
 .grupo2{
-    padding: 10px 10px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -246,7 +259,7 @@ footer{
     font-family: Open Sans;
     word-spacing: 2px;
     text-align: center;
-    padding: 15px 10px;
+    padding: 0px 5px;
 }
 
 /*responsive web*/

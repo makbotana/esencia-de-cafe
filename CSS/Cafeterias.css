@@ -294,80 +294,80 @@ a{
     /*ABRO FOOTER */
 
 
-footer{
-    background-color: #2e1c13;
-    height: auto;
-    width: 100%;
-    padding-top: 25px;
-    color: #fff;
-}
-
-.logo-pie{
-    width: 60px;
-}
-
-.pie-pagina{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.grupo1 h4{
-    font-size: 20px;
-    font-weight: 400;
-    font-family: Merriweather;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-
-.grupo1 p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-    font-family: Open Sans;
-}
-
-.frase{
-    padding-bottom: 10px;
-}
-
-.redes{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.redes li{
-    margin: 0 15px;
-}
-
-.redes a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.redes a i{
-    font-size: 20px;
-    transition: color 4s ease;
-}
-
-.redes a:hover{
-    color: #9c7461;
-}
-
-.grupo2{
-    padding: 10px 10px;
-    text-align: center;
-}
-
-.grupo2 p{
-    font-size: 16px;
-    font-family: Open Sans;
-    word-spacing: 2px;
-    text-align: center;
-    padding: 15px 10px;
-}
+    footer{
+        background-color: #2e1c13;
+        height: auto;
+        width: 100%;
+        padding-top: 10px;
+        color: #fff;
+    }
+    
+    .logo-pie{
+        width: 60px;
+    }
+    
+    .pie-pagina{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .grupo1 h4{
+        font-size: 20px;
+        font-weight: 400;
+        font-family: Merriweather;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+    
+    .grupo1 p{
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+        font-family: Open Sans;
+    }
+    
+    .frase{
+        padding-bottom: 10px;
+    }
+    
+    .redes{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .redes li{
+        margin: 0 15px;
+    }
+    
+    .redes a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .redes a i{
+        font-size: 20px;
+        transition: color 4s ease;
+    }
+    
+    .redes a:hover{
+        color: #9c7461;
+    }
+    
+    .grupo2{
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .grupo2 p{
+        font-size: 16px;
+        font-family: Open Sans;
+        word-spacing: 2px;
+        text-align: center;
+        padding: 0px 5px;
+    }
