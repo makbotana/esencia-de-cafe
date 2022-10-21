@@ -402,9 +402,6 @@ footer{
     .navegacion-principal {
         font-size: 15px;
     }
-    .navegacion-principal {
-        font-size: 18px;
-    }
     .navegacion-principal.contenedor {
         max-width: 800rem;
         margin:0 auto;
