@@ -10,8 +10,9 @@ html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
+
 body {
-    background-color: #d7af9e;
+    background: url(../Imagenes/papel1.jpg);
 }
 
 header {
