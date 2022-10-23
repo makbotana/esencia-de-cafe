@@ -10,42 +10,45 @@ function enviarFormularioContacto(){
         telefono: telefonoElement.value,
         mensaje: mensajeElement.value, 
     }
+    
+    let validForm = true;
 
     if(data.nombre === ""){
         window.alert("Se require un nombre");
-        return null;
+        validForm = false;
     }
     if(data.email === ""){
         window.alert("Se requiere un email");
-        return null;
+        validForm = false;
     }
     if(data.telefono === ""){
         window.alert("Se requiere un número");
-        return null;
+        validForm = false;
     }
     if(data.mensaje === ""){
         window.alert("Se requiere un mensaje");
-        return null;
+        validForm = false;
     }
 
     if(
         !data.email.includes("@") || 
-        !data.email.endsWith(".com") ||
-        !data.email.endsWith(".org") ||
-        !data.email.endsWith(".edu") ||
-        !data.email.endsWith(".ar") ||
-        !data.email.endsWith(".gov") 
+        !(data.email.endsWith(".com") ||
+        data.email.endsWith(".org") ||
+        data.email.endsWith(".edu") ||
+        data.email.endsWith(".ar") ||
+        data.email.endsWith(".gov")) 
 
     ){
         window.alert("No es un email válido");
-        return null;
+        validForm = false;
     }
 
     if(isNaN(Number(data.telefono))){
         window.alert("Teléfono no es un número válido");
-        return null;
+        validForm = false;
     }
     
+    if(!validForm) return null;
     console.log(`Enviando formulario: ${JSON.stringify(data, null, 2)}`)
     
 }
