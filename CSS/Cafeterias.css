@@ -5,6 +5,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03px;
+    line-height: 1.6;
+    background-color: #d7af9e;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -17,6 +29,7 @@ header {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .logo {
@@ -136,16 +149,7 @@ h2{
     text-align:center;
 }
 
-body {
-    width: 100%;
-    height: 100%;
-    letter-spacing: 0.03;
-    line-height: 1.6;
-    background-color: #d7af9e;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+
 
         /*GALERIA */
 
@@ -161,7 +165,12 @@ body {
 
 }
 
-.galeria img {
+.galeria div{
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria div a img {
     width: 100%;
     vertical-align: top;
     object-fit: cover;
@@ -169,30 +178,25 @@ body {
 
 }
 
-.galeria > a {
+.galeria div a {
     display: block;
-    position: relative;
     overflow: hidden;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5) ;
 
 }
-/*descripcion imagenes*/
-.container{
-    position: absolute;
+
+.galeria div span {
     width: 100%;
-    display: flex;
-    margin-top: 300px;
-    
-}
-
-
-.texto{
-    display: flex;
-    text-align: center;
+    padding: 5px;
+    background-color: #2e1c13;
     color: white;
     font-family: merriweather;
-    font-weight: bold;
+    
+    /* display: flex; */
 }
+
+
+
 
 .galeria a:hover img {
     filter: blur(2px);
@@ -252,7 +256,7 @@ body {
     text-align: center;
 }
 
-/*botones*/
+/*boton*/
 
 .container2{
     width: 100%;
