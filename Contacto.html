@@ -31,11 +31,11 @@
      <section class="formulario"> 
   <form action="">
       <h2>Contactanos</h2>
-      <input type="text" name="Nombre" placeholder="Nombre">
-      <input type="email" name="Email" placeholder="Email">
-      <input type="number" name="Numero" placeholder="Numero">
-      <textarea name="Tu mensaje" placeholder="Tu mensaje"></textarea>
-      <input type="button" value="ENVIAR" id="boton">
+      <input type="text" name="Nombre" placeholder="Nombre" id="name">
+      <input type="email" name="Email" placeholder="Email" id="email">
+      <input type="tel" name="Telefono" placeholder="Teléfono" id="tel">
+      <textarea name="Tu mensaje" placeholder="Tu mensaje" id="message"></textarea>
+      <input onclick="enviarFormularioContacto()" type="button" value="ENVIAR" id="boton">
   
     </form>
   </section>  
@@ -58,5 +58,6 @@
         <p><small> 2022 - <b>Esencia de Café &copy;</b> - Todos los Derechos Reservados</small></p>
     </section> 
   </footer>
+  <script src="/javascript/formulario.js"></script>
 </body>
 </html>
