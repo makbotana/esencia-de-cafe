@@ -47,6 +47,11 @@ function enviarFormularioContacto(){
         window.alert("Teléfono no es un número válido");
         validForm = false;
     }
+
+    if(data.mensaje.length < 10){
+        window.alert("El mensaje debe tener un mínimo de 10 caracteres");
+        validForm = false;
+    }
     
     if(!validForm) return null;
     console.log(`Enviando formulario: ${JSON.stringify(data, null, 2)}`)
