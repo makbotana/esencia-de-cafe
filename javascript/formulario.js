@@ -55,5 +55,5 @@ function enviarFormularioContacto(){
     
     if(!validForm) return null;
     console.log(`Enviando formulario: ${JSON.stringify(data, null, 2)}`)
-    
+    window.alert("El formulario ha sido enviado exitosamente");
 }
